@@ -5,13 +5,14 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* ReactNativeStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeStarterTests.m */; };
+		00E356F31AD99517003FC87E /* ClientRelationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ClientRelationTests.m */; };
 		084C11ACEB814C0898DAD271 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D54E2CCBACA244AEB9C8EA0E /* Octicons.ttf */; };
 		0AAB0D02C4014493A2334946 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57AF65E072BD4CD6AE393E60 /* Foundation.ttf */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
@@ -28,6 +29,7 @@
 		20E879A9EC704F6588D0A935 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C32BE17ED12A48FEB4CEAFF3 /* MaterialCommunityIcons.ttf */; };
 		2C06B45A1DC64096A00D8808 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F9FE2CE5EA64AF79B3167F5 /* SimpleLineIcons.ttf */; };
 		377C9D449C5A4CA8828A37FC /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE444D7DAC24874849AA0FF /* libSplashScreen.a */; };
+		3A055340E43048C784AA354F /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDA296B0D02C4308994F790A /* Feather.ttf */; };
 		49641A1DE41E47088599D643 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67F7FCC523A54937BAAED78B /* MaterialIcons.ttf */; };
 		49FAE4982804487887F25020 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11FDAA0854604F629BF5CAA2 /* EvilIcons.ttf */; };
 		4D07B7D881D046F79CA974F6 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50D2691385874C36853575B9 /* Ionicons.ttf */; };
@@ -45,7 +47,6 @@
 		B32AE7F010994C85A50BACDD /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95550C798780400183EEDBE3 /* Roboto_medium.ttf */; };
 		B397A9DF953849879B9E8E68 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04E752F619C843D0A309E719 /* Entypo.ttf */; };
 		B47A330FAB20495288ED4FC6 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E75334F1E5A4C408EF3B0B3 /* FontAwesome.ttf */; };
-		B949CBEF5B714748A6EDDCC5 /* libReactNativePermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B65F0CC3644DBD82CFCB0A /* libReactNativePermissions.a */; };
 		CD1698B703824A4E90355B9D /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B12044710E4EC88B4E03AC /* libRNVectorIcons.a */; };
 		D1F16CA5C5814301BFA7253F /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2EF7CE50B184E1897D3662D /* EvilIcons.ttf */; };
 		D46D84305F034BAA96AEFDE9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 534A1C93582549B8B5212255 /* SimpleLineIcons.ttf */; };
@@ -94,7 +95,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReactNativeStarter;
+			remoteInfo = ClientRelation;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -350,9 +351,9 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ReactNativeStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ClientRelationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClientRelationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactNativeStarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeStarterTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ClientRelationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientRelationTests.m; sourceTree = "<group>"; };
 		04615E6AF24F45CEBE78D8A2 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		04AB004FEC83439B96E66737 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		04E752F619C843D0A309E719 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
@@ -360,13 +361,13 @@
 		11FDAA0854604F629BF5CAA2 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReactNativeStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeStarter/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativeStarter/AppDelegate.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ClientRelation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClientRelation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ClientRelation/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ClientRelation/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeStarter/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeStarter/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeStarter/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ClientRelation/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ClientRelation/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ClientRelation/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		1F9FE2CE5EA64AF79B3167F5 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		2503D6B20209445F8652AE40 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
@@ -398,6 +399,7 @@
 		D693C1E14FFF4FA4BB2DD559 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		DA06A414E9BF44A7942826F1 /* ReactNativePermissions.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativePermissions.xcodeproj; path = "../node_modules/react-native-permissions/ios/ReactNativePermissions.xcodeproj"; sourceTree = "<group>"; };
 		DD2C4A46B37A4296AA0993E4 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		DDA296B0D02C4308994F790A /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -427,7 +429,6 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				CD1698B703824A4E90355B9D /* libRNVectorIcons.a in Frameworks */,
-				B949CBEF5B714748A6EDDCC5 /* libReactNativePermissions.a in Frameworks */,
 				377C9D449C5A4CA8828A37FC /* libSplashScreen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,13 +478,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* ReactNativeStarterTests */ = {
+		00E356EF1AD99517003FC87E /* ClientRelationTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactNativeStarterTests.m */,
+				00E356F21AD99517003FC87E /* ClientRelationTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactNativeStarterTests;
+			path = ClientRelationTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -514,7 +515,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReactNativeStarter */ = {
+		13B07FAE1A68108700A75B9A /* ClientRelation */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -525,7 +526,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ReactNativeStarter;
+			name = ClientRelation;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -563,7 +564,6 @@
 			isa = PBXGroup;
 			children = (
 				B4B12044710E4EC88B4E03AC /* libRNVectorIcons.a */,
-				D37932CCFBB14B53AE995EBB /* libRNCamera.a */,
 				46B65F0CC3644DBD82CFCB0A /* libReactNativePermissions.a */,
 				8AE444D7DAC24874849AA0FF /* libSplashScreen.a */,
 			);
@@ -646,9 +646,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ReactNativeStarter */,
+				13B07FAE1A68108700A75B9A /* ClientRelation */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactNativeStarterTests */,
+				00E356EF1AD99517003FC87E /* ClientRelationTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				93B463FAE26F493D9B917CDA /* Resources */,
@@ -662,8 +662,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeStarter.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeStarterTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ClientRelation.app */,
+				00E356EE1AD99517003FC87E /* ClientRelationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -695,6 +695,7 @@
 				258FF4B63D654B48B101D796 /* Octicons.ttf */,
 				534A1C93582549B8B5212255 /* SimpleLineIcons.ttf */,
 				09E0C3D9868C4D2B90EDD7C4 /* Zocial.ttf */,
+				DDA296B0D02C4308994F790A /* Feather.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -711,9 +712,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactNativeStarterTests */ = {
+		00E356ED1AD99517003FC87E /* ClientRelationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeStarterTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClientRelationTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -724,14 +725,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactNativeStarterTests;
-			productName = ReactNativeStarterTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactNativeStarterTests.xctest */;
+			name = ClientRelationTests;
+			productName = ClientRelationTests;
+			productReference = 00E356EE1AD99517003FC87E /* ClientRelationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReactNativeStarter */ = {
+		13B07F861A680F5B00A75B9A /* ClientRelation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeStarter" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ClientRelation" */;
 			buildPhases = (
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -742,9 +743,9 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeStarter;
+			name = ClientRelation;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeStarter.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* ClientRelation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -766,7 +767,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeStarter" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ClientRelation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -841,8 +842,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReactNativeStarter */,
-				00E356ED1AD99517003FC87E /* ReactNativeStarterTests */,
+				13B07F861A680F5B00A75B9A /* ClientRelation */,
+				00E356ED1AD99517003FC87E /* ClientRelationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1168,6 +1169,7 @@
 				70673CBF382D452AA83FF9D9 /* Octicons.ttf in Resources */,
 				D46D84305F034BAA96AEFDE9 /* SimpleLineIcons.ttf in Resources */,
 				FCF3DF936A084232873B49FB /* Zocial.ttf in Resources */,
+				3A055340E43048C784AA354F /* Feather.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1195,7 +1197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactNativeStarterTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ClientRelationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1213,7 +1215,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReactNativeStarter */;
+			target = 13B07F861A680F5B00A75B9A /* ClientRelation */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1225,7 +1227,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ReactNativeStarter;
+			path = ClientRelation;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1246,18 +1248,16 @@
 					"$(SRCROOT)/../node_modules/react-native-permissions/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
-				INFOPLIST_FILE = ReactNativeStarterTests/Info.plist;
+				INFOPLIST_FILE = ClientRelationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeStarter.app/ReactNativeStarter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientRelation.app/ClientRelation";
 			};
 			name = Debug;
 		};
@@ -1273,18 +1273,16 @@
 					"$(SRCROOT)/../node_modules/react-native-permissions/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
-				INFOPLIST_FILE = ReactNativeStarterTests/Info.plist;
+				INFOPLIST_FILE = ClientRelationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeStarter.app/ReactNativeStarter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClientRelation.app/ClientRelation";
 			};
 			name = Release;
 		};
@@ -1301,7 +1299,7 @@
 					"$(SRCROOT)/../node_modules/react-native-permissions/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
-				INFOPLIST_FILE = ReactNativeStarter/Info.plist;
+				INFOPLIST_FILE = ClientRelation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1309,7 +1307,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.daviddang91.reactnativestarter;
-				PRODUCT_NAME = ReactNativeStarter;
+				PRODUCT_NAME = ClientRelation;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1326,7 +1324,7 @@
 					"$(SRCROOT)/../node_modules/react-native-permissions/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
-				INFOPLIST_FILE = ReactNativeStarter/Info.plist;
+				INFOPLIST_FILE = ClientRelation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1334,7 +1332,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.daviddang91.reactnativestarter;
-				PRODUCT_NAME = ReactNativeStarter;
+				PRODUCT_NAME = ClientRelation;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -1418,7 +1416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeStarterTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ClientRelationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1427,7 +1425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeStarter" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ClientRelation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1436,7 +1434,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeStarter" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ClientRelation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

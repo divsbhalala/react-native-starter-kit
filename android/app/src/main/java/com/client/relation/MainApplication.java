@@ -1,4 +1,4 @@
-package com.daviddang91.reactnativestarter;
+package com.client.relation;
 
 import android.app.Application;
 
